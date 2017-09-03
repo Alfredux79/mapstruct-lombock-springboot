@@ -14,5 +14,5 @@ public interface SourceToTargetMapper {
 		@Mapping(source = "characteristics", target = "description"),
 		@Mapping(source = "identifier", target = "id") 
 	})
-	Target toTarget(Source source);
+	public abstract Target toTarget(Source source);
 }
