@@ -9,7 +9,7 @@
 	<packaging>jar</packaging>
 
 	<name>mapstruct-lombock-springboot</name>
-	<description>Demo project integrationg Lombock and Mapstruct under SpringBoot</description>
+	<description>Demo project integrating Lombock and Mapstruct under SpringBoot</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
