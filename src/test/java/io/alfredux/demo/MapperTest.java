@@ -28,6 +28,8 @@ public class MapperTest {
 		log.info("MAPPING STUFF");
 		Source source = new Source("demo","demonstration source");
 		Target target = sourceToTargetMapper.toTarget(source);
+		log.info(source.toString());
+		log.info(target.toString());		
 		assertEquals(target.getId(), source.getIdentifier());
 		assertEquals(target.getDescription(), source.getCharacteristics());
 		
