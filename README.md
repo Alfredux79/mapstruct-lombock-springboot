@@ -6,6 +6,6 @@ To try it:
 
 ```
 git clone https://github.com/Alfredux79/mapstruct-lombok-springboot.git
-
+cd mapstruct-lombok-springboot
 mvn test
 ```
